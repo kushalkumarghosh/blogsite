@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import {FaUser} from 'react-icons/fa'
 
-const BlogCards = ({blogs}) => {
-    const filteredBlogs = blogs;
+const BlogCards = ({blogs, currentPage, selectedCategory, pageSize}) => {
+    const filteredBlogs = blogs.filter((blogs) => !selectedCategory || blogs.category === selectedCategory)
+    .slice((currentPage-1) * pageSize, currentPage * pageSize);
     console.log(filteredBlogs);
 
   return (
