@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="px-4 py-32 bg-black mx-auto">
       <div className="text-white text-center">
         <h1 className="text-5xl lg:text-7xl leading-sung font-bold mb-5">
-          Welcome to Our Blog
+          Welcome to My Blog
         </h1>
         <p className="text-gray-100 lg:w-3/5 mx-auto mb-5 font-primary">
           Start your blog today and join a community of writers and readers who
