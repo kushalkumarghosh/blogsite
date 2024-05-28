@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import BlogCards from "./BlogCards";
 import Pagination from "./Pagination";
 import CategorySelection from "./CategorySelection";

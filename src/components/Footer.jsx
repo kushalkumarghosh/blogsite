@@ -14,19 +14,19 @@ const Footer = () => {
                             <ul className='mt-2 space-y-2'>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>News</a>
+                                hover:text-zinc-400'>News</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>World</a>
+                                hover:text-zinc-400'>World</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Games</a>
+                                hover:text-zinc-400'>Games</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>References</a>
+                                hover:text-zinc-400'>References</a>
                                 </li>
                             </ul>
                         </div>
@@ -39,23 +39,23 @@ const Footer = () => {
                             <ul className='mt-2 space-y-2'>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Web</a>
+                                hover:text-zinc-400'>Web</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Ecommerce</a>
+                                hover:text-zinc-400'>Ecommerce</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Business</a>
+                                hover:text-zinc-400'>Business</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Entertainment</a>
+                                hover:text-zinc-400'>Entertainment</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Portfolio</a>
+                                hover:text-zinc-400'>Portfolio</a>
                                 </li>
                             </ul>
                         </div>
@@ -68,23 +68,23 @@ const Footer = () => {
                             <ul className='mt-2 space-y-2'>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Media</a>
+                                hover:text-zinc-400'>Media</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Brochure</a>
+                                hover:text-zinc-400'>Brochure</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Nonprofit</a>
+                                hover:text-zinc-400'>Nonprofit</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Education</a>
+                                hover:text-zinc-400'>Education</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Projects</a>
+                                hover:text-zinc-400'>Projects</a>
                                 </li>
                             </ul>
                         </div>
@@ -97,23 +97,23 @@ const Footer = () => {
                             <ul className='mt-2 space-y-2'>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Infopreneur</a>
+                                hover:text-zinc-400'>Infopreneur</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Personal</a>
+                                hover:text-zinc-400'>Personal</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Wiki</a>
+                                hover:text-zinc-400'>Wiki</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Forum</a>
+                                hover:text-zinc-400'>Forum</a>
                                 </li>
                                 <li>
                                     <a href="/" className='text-gray-500 transition-colors duration-300
-                                hover:text-orange-500'>Projects</a>
+                                hover:text-zinc-400'>Projects</a>
                                 </li>
                             </ul>
                         </div>
@@ -128,10 +128,10 @@ const Footer = () => {
                         <form className='mt-4 flex flex-col md:flex-row'>
                             <input type="email" name='email' id='email' className='flex-grow w-full h-12 px-4 mb-3
                             transition duration-200 bg-white border border-gray-300 rounded shadow-sm aspect-auto
-                            md:mr-2 md:mb-0 focus:border-purple-400 focus:outline-none' />
+                            md:mr-2 md:mb-0 focus:text-zinc-500 focus:outline-none' />
 
                             <button type='submit' className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-white
-                            text-white transition duration-200 rounded shadow-md hover:bg-orange-500 focus:outline-none border'>
+                            text-white transition duration-200 rounded shadow-md hover:text-zinc-400 focus:outline-none border'>
                                 Subscribe
                             </button>
                         </form>
@@ -140,14 +140,14 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row'>
-                    <p className='text-sm text-gray-500'>© Copyright 2024 | All right reserved.</p>
+                    <p className='text-sm text-gray-500'>© Digital Talk </p>
                     <div className='flex items-center mt-4 space-x-4 sm:mt-0'>
                         <a href="" className='text-gray-500 transition-all duration-300
-                    hover:text-orange-500'><FaTwitter className='h-6 w-6' /></a>
+                    hover:text-zinc-400'><FaTwitter className='h-6 w-6' /></a>
                         <a href="" className='text-gray-500 transition-all duration-300
-                    hover:text-orange-500'><FaInstagram className='h-6 w-6' /></a>
+                    hover:text-zinc-400'><FaInstagram className='h-6 w-6' /></a>
                         <a href="" className='text-gray-500 transition-all duration-300
-                    hover:text-orange-500'><FaFacebook className='h-6 w-6' /></a>
+                    hover:text-zinc-400'><FaFacebook className='h-6 w-6' /></a>
                     </div>
                 </div>
             </div>
