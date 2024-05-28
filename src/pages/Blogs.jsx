@@ -1,4 +1,3 @@
-import React from "react";
 import BlogPage from "../components/BlogPage";
 
 const Blogs = () => {
@@ -11,7 +10,7 @@ const Blogs = () => {
       </div>
       {/* all blogs container */}
       <div className="max-w-7xl mx-auto ">
-        <BlogPage/>
+        <BlogPage />
 
       </div>
     </div>
