@@ -40,8 +40,8 @@ const Navbar = () => {
   return (
     <header className="bg-black text-white fixed top-0 left-0 right-0">
       <nav className="px-4 py-4 max-w-7xl mx-auto flex justify-between items-center">
-        <a href="/" className="text-xl font-bold text-white">
-          Digital<span className="text-orange-500">TALK</span>
+        <a href="/" className="text-xl font-bold text-zinc-500">
+          Digital<span className="text-zinc-400">TALK</span>
         </a>
 
         {/* navItems for lg devices */}
@@ -62,19 +62,19 @@ const Navbar = () => {
 
         {/* menu icons */}
         <div className="text-white lg:flex gap-4 items-center hidden">
-          <a href="/" className="hover:text-orange-500">
+          <a href="/" className="hover:text-zinc-400">
             <FaSquareFacebook />
           </a>
-          <a href="/" className="hover:text-orange-500">
+          <a href="/" className="hover:text-zinc-400">
             <FaSquareDribbble />
           </a>
-          <a href="/" className="hover:text-orange-500">
+          <a href="/" className="hover:text-zinc-400">
             <FaTwitter />
           </a>
           <button
             onClick={openModal}
-            className="bg-orange-500 px-6 py-2 font-medium rounded hover:bg-white
-                hover:text-orange-500 transition-all duration-200 ease-in"
+            className="bg-zinc-500 px-6 py-2 font-medium rounded hover:bg-zinc-300
+                hover:text-zinc-400 transition-all duration-200 ease-in"
           >
             Log in
           </button>
@@ -100,8 +100,8 @@ const Navbar = () => {
       <div>
         <ul
           className={`md:hidden gap-12 text-lg block space-y-4 px-4 py-6 mt-14 bg-white ${isMenuOpen
-              ? "fixed top-0 left-0 w-full transition-all ease-out duration-150"
-              : "hidden"
+            ? "fixed top-0 left-0 w-full transition-all ease-out duration-150"
+            : "hidden"
             }`}
         >
           {navItems.map(({ path, link }) => (
