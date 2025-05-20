@@ -9,7 +9,7 @@ const Banner = () => {
           Welcome to My Blog
         </h1>
         <p className="text-gray-100 lg:w-3/5 mx-auto mb-5 font-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reprehenderit pariatur facere? Harum iure excepturbeatae at ducimus eos illo sed dolorem, aperiam quidem minima eius explicabo accusantium nihil perferendis dignissimos? Quia accusantium commodi inventore molestiae nulla necessitatibus rerum, ipsa explicabo iure blanditiis voluptate.
+          Welcome to my blog! Here, you'll find a diverse mix of articles, insights, and stories on topics ranging from travel and lifestyle to technology and personal growth. Join me as we explore new ideas, share experiences, and engage in meaningful conversations. Your journey starts here!
         </p>
         <div>
           <Link
