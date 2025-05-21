@@ -13,7 +13,7 @@ const BlogPage = () => {
 
   useEffect(() => {
     async function fetchBlogs() {
-      let url = `/blogs?page=${currentPage}&limit=${pageSize}`;
+      let url = `/blogs.json?page=${currentPage}&limit=${pageSize}`;
 
       //filter by category
       if (selectedCategory) {
